@@ -1,0 +1,28 @@
+body {
+    background-color: #7ECD51;
+}
+
+div.header-container {
+    background-color: #3A934C;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+div.header-container a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+div.header-container a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+div.header-container a.active {
+    background-color: black;
+    color: white;
+}

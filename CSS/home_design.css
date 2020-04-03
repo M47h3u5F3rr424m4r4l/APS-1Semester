@@ -43,3 +43,24 @@ div.container {
     text-align: center;
     margin: 0 auto;
 }
+
+h1 {
+    color: black;
+}
+
+p {
+    text-align: justify;
+    font-size: 23px;
+    margin-left: 10px;
+}
+
+div.img-content {
+    float: left;  
+}
+
+div.img-content img.florest {
+    width: 300px;
+    height: 300px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
