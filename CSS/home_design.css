@@ -8,13 +8,19 @@ div.header-container {
     margin-bottom: 40px;
 }
 
+div.header-container img.logo{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
 div.header-container a {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 28px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
 }
   
 div.header-container a:hover {
@@ -54,13 +60,11 @@ p {
     margin-left: 10px;
 }
 
-div.img-content {
-    float: left;  
-}
 
 div.img-content img.florest {
     width: 300px;
     height: 300px;
     padding-right: 10px;
     padding-left: 10px;
+    float: left;
 }
