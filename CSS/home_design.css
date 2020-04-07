@@ -45,7 +45,7 @@ div.top-image img.data {
 div.container {
     background-color: whitesmoke;
     width: 900px;
-    height: 1200px;
+    height: 2200px;
     text-align: center;
     margin: 0 auto;
 }
@@ -74,4 +74,5 @@ div.img-content img.florest {
 li {
     list-style-type: upper-roman;
     list-style-position: inside;
+    font-size: 21px;
 }

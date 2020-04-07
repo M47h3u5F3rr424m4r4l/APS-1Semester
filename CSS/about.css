@@ -33,3 +33,33 @@ div.header-container a.active {
     background-color: black;
     color: white;
 }
+
+div.top-image {
+    text-align: center;
+}
+
+div.top-image img.data {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+div.container {
+    background-color: whitesmoke;
+    width: 900px;
+    height: 700px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1 {
+    color: black;
+}
+
+p {
+    text-align: justify;
+    font-size: 21px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
