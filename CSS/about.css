@@ -41,7 +41,6 @@ div.top-image {
 div.top-image img.data {
     width: 70px;
     height: 70px;
-    margin-bottom: 20px;
 }
 
 div.container {
@@ -53,7 +52,7 @@ div.container {
 }
 
 h1 {
-    color: black;
+    color: #3A934C;;
 }
 
 p {
