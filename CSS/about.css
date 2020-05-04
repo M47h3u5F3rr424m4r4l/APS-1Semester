@@ -52,7 +52,14 @@ div.container {
 }
 
 h1 {
-    color: #3A934C;;
+    color: #3A934C;
+    font-size: 40px;
+}
+
+h2 {
+    color: #3A934C;
+    text-align: left;
+    margin-left: 10px;
 }
 
 p {
