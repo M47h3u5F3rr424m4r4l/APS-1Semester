@@ -1,0 +1,2 @@
+- adicionar mais eventos com javascript
+- escrever sobre cada um no sobre
