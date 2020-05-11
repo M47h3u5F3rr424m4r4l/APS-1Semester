@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <title>Conteúdos</title>
-        <link href="../JS/content_script.js" type="text/javascript">
         <link href="../CSS/content.css" rel="stylesheet" type="text/css">
+        <script src="../JS/content_script.js" type="text/javascript"></script>
     </head>
 
     <body>
@@ -26,7 +26,7 @@
                 <h1>Conteúdos</h1>
 
                 <article>
-                    <a href="../Pages/Conteudos/Tecnologia/Tec.html">        
+                    <a href="../Pages/Conteudos/Tecnologia/Tec.html" onmouseover="addPhrase()" onmouseout="removePhrase()">        
                         <div class="content-box">
                             <img class="image-content" src="../Images/Top-Icons/city.jpeg">
                             <h1>Tecnologia a favor do meio ambiente</h1>
@@ -38,7 +38,7 @@
                             </p>
 
                             <!--Add a method to write into p-->
-                            <p id="tecnology" onmouseover="addPhrase(this)">
+                            <p id="tecnology">
                             </p>
 
                         </div>

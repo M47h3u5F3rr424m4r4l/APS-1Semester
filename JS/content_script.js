@@ -1,15 +1,20 @@
-var p = document.getElementById("tecnology");
 
 
-function addPhrase(object)
+function addPhrase()
 {
+    var p = document.getElementById("tecnology");
     var phrase = "Tecnology";
 
     var x;
-    for (x = 0; x < phrase.length; x++)
+    for(x = 0; x < phrase.length; x++)
     {
-        object.innerText = phrase;
+        p.innerText += phrase[x];
     }
 }
 
-p.onmouseover(addPhrase(p));
+function removePhrase()
+{
+    var p = document.getElementById("tecnology");
+    
+    p.innerText = "";
+}
